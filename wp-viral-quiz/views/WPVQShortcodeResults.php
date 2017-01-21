@@ -174,7 +174,7 @@
 				<div class="wpvq-appreciation-content"></div>
 		<?php elseif ($quiz->getNiceType() == 'Personality'): ?>
 			<div id="wpvq-final-personality">
-				<span class="wpvq-quiz-title"><?php echo stripslashes($quiz->getName()); ?></span>
+				<!-- <span class="wpvq-quiz-title"><?php echo stripslashes($quiz->getName()); ?></span> -->
 				<span class="wpvq-local-caption wpvq-you-are"><?php echo $wpvq_share_perso_local; ?></span>
 				<div class="wpvq-personality-content"></div>
 		<?php endif; ?>
